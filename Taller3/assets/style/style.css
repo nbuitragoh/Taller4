@@ -1,0 +1,45 @@
+body{
+    background-image: url(../src/img/fondo_1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    min-height: 90vh;
+    max-width: 100%;
+}
+
+h1{
+    font-family: cursive;
+    font-size: 60px;
+    color:black;
+    text-align: center;
+}
+
+.contenedor .signos{
+    display: flex;
+    margin-left: 5rem;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    justify-content: space-around; 
+    max-width: 100%;
+}
+.sum{
+    width: 70px;
+}
+.res{
+    width: 70px;
+}
+.mul{
+    width: 70px;
+}
+.divi{
+    width: 70px;
+}
+.mresultado{
+    font-family: cursive;
+    color: darkmagenta;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 20px;
+
+}

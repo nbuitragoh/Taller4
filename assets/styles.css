@@ -1,0 +1,79 @@
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url(../images/fondo_1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    min-height: 120vh;
+    margin: 0;
+    font-family: cursive;    
+}                                   
+.formcontact{
+    width: 500px;
+    max-width: 100%;
+    margin: auto;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 20px 1px rgba(0,0,0,0,4);
+}
+.contInput{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+}
+
+.contInput label{
+    margin-bottom: 2px;
+    color:black;
+    font-family: cursive;
+    font-size: 15px;
+}
+.contInput input{
+    border: none;
+    padding: 8px 10px;
+    background-color:#e77cd5;
+    border-radius: 10px;
+}
+.contInput input:focus{
+    box-shadow: 0 0 15px #ee1ecb;
+}
+.btnEnviar{
+    font-family: cursive;
+    color:white;
+    margin-top: 10px;
+    align-self: center;
+    border:none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: rgb(36, 11, 150);
+    font-size: 15px;
+    text-align: center;
+}
+.mensajealertanombre{
+    color: green;
+    margin-top: 5px;    
+}
+.inputTyC{
+    flex-direction: row;
+    justify-content: space-around;
+    /* border-bottom-color: tomato; */
+}
+.inputTyC > label{
+    order: 2;
+}
+.bgcAlert{
+    background-color: #F69D9D !important;
+}
+
+/* .contenedor{
+    display: flex;
+    align-items: center center;
+    height: 500px;
+    width: 1000px;
+    color: beige
+} */

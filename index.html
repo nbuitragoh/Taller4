@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Calculadora</title>
+    <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+
+<div class="contenedor">
+
+    <form class="formcontact" onsubmit="validarformulario(event)">
+        <div class="contInput">
+            <label  for="">Nombre</label>
+                <input type="text" placeholder="Ej: pepito perez" id="name">
+                <small class="mensajealertanombre" id="mensajealertanombre"></small>
+        </div>
+        <div class="contInput">
+            <label  for="">Apellido</label>
+                <input type="text" placeholder="Ej: pepito perez" id="apellido">
+                <small class="mensajealertanombre" id="mensajealertaapellido"></small>
+        </div>
+        <div class="contInput">
+            <label  for="">Correo</label>
+                <input type="email" placeholder="Ej: xxx@xx.com" id="correo">
+                <small class="mensajealertanombre" id="mensajealertacorreo"></small>
+        </div>
+        <div class="contInput">
+            <label  for="">Contraseña</label>
+                <input type="password" id="contraseña">
+                <small class="mensajealertanombre" id="mensajealertacontraseña"></small>
+        </div>
+        <div class="contInput">
+            <label  for="">Edad</label>
+                <input type="number" id="edad">
+                <small class="mensajealertanombre" id="mensajealertaedad"></small>
+        </div>
+        <div class="contInput inputTyC">
+            <label  for="inputTyC">Terminos y Condiciones</label>
+                <input type="checkbox" id="inputTyC">                
+        </div>
+        <small class="mensajealertanombre" id="mensajealertaTyC"></small>
+        <input type="submit" value="Enviar"
+        class="btnEnviar">
+
+    </form>
+
+</div>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
